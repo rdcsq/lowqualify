@@ -8,8 +8,7 @@ const processing = document.querySelector('#processing')
 const progress = document.querySelector('#progress')
 const fileInput = document.querySelector('#file-input')
 
-export const baseUrl = "https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm";
-
+const baseUrl = "https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm";
 const ffmpeg = new FFmpeg();
 
 ffmpeg.on("log", ({message: msg}) => {
