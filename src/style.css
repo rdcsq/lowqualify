@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+html {
+    @apply bg-zinc-900 text-zinc-100 select-none;
+}
